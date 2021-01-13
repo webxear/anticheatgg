@@ -68,7 +68,6 @@ i.fa.fa-remove {
 }
 
 .countdown {
-
   position: absolute;
 
   bottom: 0;
@@ -91,7 +90,7 @@ i.fa.fa-remove {
 }
 
 .disabled-element::before {
-  content: '';
+  content: "";
   width: 90%;
   height: 100%;
   background-color: white;
@@ -220,7 +219,7 @@ i.fab.fa-discord {
   z-index: 9;
 }
 
-.tooltip-icon:hover~.tooltip-btn-text {
+.tooltip-icon:hover ~ .tooltip-btn-text {
   visibility: visible;
   opacity: 1;
 }
@@ -363,7 +362,7 @@ li.nav-item.navs a {
 .hero-section-img {
   position: relative;
   top: 14.4375rem;
-  right: 9.375rem;
+  right: 7.375rem;
 }
 
 .buy-btn-text {
@@ -418,8 +417,6 @@ li.nav-item.navs a {
 }
 
 .hero-section-img {
-  top: 0;
-  right: 0;
   position: relative;
   z-index: -9;
 }
@@ -807,8 +804,8 @@ tr {
   top: 0.625rem;
 }
 
-.box-text-cloud-img>p {
-  font-family: 'IBM Plex Sans', sans-serif;
+.box-text-cloud-img > p {
+  font-family: "IBM Plex Sans", sans-serif;
   text-shadow: 0.0625rem 0.0625rem 0.125rem #494949;
 }
 
@@ -1162,7 +1159,7 @@ button.owl-next {
 }
 
 .description-text p {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9375rem;
@@ -1228,7 +1225,7 @@ button.owl-next {
 }
 
 .description-text-2 p {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9375rem;
@@ -1286,8 +1283,6 @@ button.owl-next {
 
 /* custom css */
 @media (max-width: 75rem) {
-
-
   img.product-info-imgbackground {
     position: absolute;
     top: 92pc;
@@ -1696,7 +1691,7 @@ button.owl-next {
 
   .discord-btn {
     position: relative;
-    top: 1.25rem;
+
     margin: auto;
   }
 
@@ -1764,7 +1759,14 @@ button.owl-next {
     overflow: hidden;
   }
 }
-
+@media(max-width:453px){
+  .discord-btn.discordBtn2 {
+    margin-top: 40px;
+}
+.product-info-btn {
+  margin-top: 50px;
+}
+}
 @media (max-width: 30.625rem) {
   .wrapper {
     margin: auto;
@@ -1976,7 +1978,6 @@ button.owl-next {
   .buy-btn-text {
     width: 5.75rem;
     height: 3.4375rem;
-
   }
 
   .buy-btn-text p,
@@ -1991,12 +1992,13 @@ button.owl-next {
     padding: 0.3125rem;
   }
 
-  .description-text p, .description-text-2 p {
-    font-size: 12px;
-    line-height: 14px;
+  .description-text p,
+  .description-text-2 p {
+    font-size: 14px;
+    line-height: 12px;
     position: relative;
     top: 8px;
-}
+  }
   .description-text-background-img,
   .description-text-background-img-2 {
     position: relative;
@@ -2021,7 +2023,6 @@ button.owl-next {
   .desciption-tittle {
     height: auto;
     width: 6.25rem !important;
-
   }
 
   .description-logo-2 {
@@ -2137,9 +2138,8 @@ button.owl-next {
   }
 }
 
-
 .discord-1 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .discordHref1 {
@@ -2187,7 +2187,7 @@ button.owl-next {
 }
 
 .exitBuy {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .cardBuyText {
@@ -2196,7 +2196,7 @@ button.owl-next {
 }
 
 .cardBuyBtn {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   width: 100%;
   border-radius: 1.75rem;
   padding-top: 2.1%;
@@ -2238,7 +2238,6 @@ button.owl-next {
   padding: 5px 10px;
   border-radius: 5px;
 }
-
 
 .buy-now-btn {
   margin-bottom: 0.5rem;
