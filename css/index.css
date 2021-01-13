@@ -1987,15 +1987,15 @@ button.owl-next {
 
   .description-text,
   .description-text-2 {
-    width: 7.875rem;
-    height: 9.375rem;
+    width: 9.875rem;
+    height: 12.375rem;
     padding: 0.3125rem;
   }
 
   .description-text p,
   .description-text-2 p {
-    font-size: 14px;
-    line-height: 12px;
+    font-size: 17px;
+    line-height: 15px;
     position: relative;
     top: 8px;
   }
@@ -2008,7 +2008,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 10.125rem;
+    width: 13.125rem;
   }
 
   .description-logo img,
