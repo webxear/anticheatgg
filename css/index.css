@@ -2062,7 +2062,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 10.125rem;
+    width: 13.125rem;
   }
 
   .description-logo img,
@@ -2076,7 +2076,7 @@ button.owl-next {
 
   .description-logo-2 {
     position: relative;
-    left: -0.9375rem;
+    left: 0.9375rem;
     width: 50%;
     margin-top: auto;
   }
@@ -2085,8 +2085,8 @@ button.owl-next {
     width: 6.25rem;
     height: auto;
     position: relative;
-    left: 5.75rem;
-    bottom: 8.5625rem;
+    left: 7.75rem;
+    bottom: 10.5625rem;
   }
 
   .footer-section {
