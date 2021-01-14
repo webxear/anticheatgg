@@ -68,6 +68,7 @@ i.fa.fa-remove {
 }
 
 .countdown {
+
   position: absolute;
 
   bottom: 0;
@@ -90,7 +91,7 @@ i.fa.fa-remove {
 }
 
 .disabled-element::before {
-  content: "";
+  content: '';
   width: 90%;
   height: 100%;
   background-color: white;
@@ -219,7 +220,7 @@ i.fab.fa-discord {
   z-index: 9;
 }
 
-.tooltip-icon:hover ~ .tooltip-btn-text {
+.tooltip-icon:hover~.tooltip-btn-text {
   visibility: visible;
   opacity: 1;
 }
@@ -362,7 +363,7 @@ li.nav-item.navs a {
 .hero-section-img {
   position: relative;
   top: 14.4375rem;
-  right: 7.375rem;
+  right: 9.375rem;
 }
 
 .buy-btn-text {
@@ -417,6 +418,8 @@ li.nav-item.navs a {
 }
 
 .hero-section-img {
+  top: 0;
+  right: 0;
   position: relative;
   z-index: -9;
 }
@@ -804,8 +807,8 @@ tr {
   top: 0.625rem;
 }
 
-.box-text-cloud-img > p {
-  font-family: "IBM Plex Sans", sans-serif;
+.box-text-cloud-img>p {
+  font-family: 'IBM Plex Sans', sans-serif;
   text-shadow: 0.0625rem 0.0625rem 0.125rem #494949;
 }
 
@@ -1159,7 +1162,7 @@ button.owl-next {
 }
 
 .description-text p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9375rem;
@@ -1225,7 +1228,7 @@ button.owl-next {
 }
 
 .description-text-2 p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9375rem;
@@ -1283,6 +1286,8 @@ button.owl-next {
 
 /* custom css */
 @media (max-width: 75rem) {
+
+
   img.product-info-imgbackground {
     position: absolute;
     top: 92pc;
@@ -1453,6 +1458,16 @@ button.owl-next {
 }
 
 @media (max-width: 48rem) {
+  .tooltip-btn {
+    position: relative;
+    display: none;
+}
+.product-info-btn {
+  margin-top: 45px;
+}
+video {
+  width: 80% !important;
+}
   img.product-info-btn-background {
     position: relative;
     top: 0.9375rem;
@@ -1691,7 +1706,7 @@ button.owl-next {
 
   .discord-btn {
     position: relative;
-
+    top: 1.25rem !important;
     margin: auto;
   }
 
@@ -1759,14 +1774,7 @@ button.owl-next {
     overflow: hidden;
   }
 }
-@media(max-width:453px){
-  .discord-btn.discordBtn2 {
-    margin-top: 40px;
-}
-.product-info-btn {
-  margin-top: 50px;
-}
-}
+
 @media (max-width: 30.625rem) {
   .wrapper {
     margin: auto;
@@ -1978,6 +1986,7 @@ button.owl-next {
   .buy-btn-text {
     width: 5.75rem;
     height: 3.4375rem;
+
   }
 
   .buy-btn-text p,
@@ -1987,18 +1996,17 @@ button.owl-next {
 
   .description-text,
   .description-text-2 {
-    width: 9.875rem;
-    height: 12.375rem;
+    width: 7.875rem;
+    height: 9.375rem;
     padding: 0.3125rem;
   }
 
   .description-text p,
   .description-text-2 p {
-    font-size: 17px;
-    line-height: 15px;
-    position: relative;
-    top: 8px;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
   }
+
   .description-text-background-img,
   .description-text-background-img-2 {
     position: relative;
@@ -2008,7 +2016,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 13.125rem;
+    width: 10.125rem;
   }
 
   .description-logo img,
@@ -2023,11 +2031,12 @@ button.owl-next {
   .desciption-tittle {
     height: auto;
     width: 6.25rem !important;
+
   }
 
   .description-logo-2 {
     position: relative;
-    left: 0.9375rem;
+    left: -0.9375rem;
     width: 50%;
     margin-top: auto;
   }
@@ -2036,8 +2045,8 @@ button.owl-next {
     width: 6.25rem;
     height: auto;
     position: relative;
-    left: 7.75rem;
-    bottom: 10.5625rem;
+    left: 5.75rem;
+    bottom: 8.5625rem;
   }
 }
 
@@ -2062,7 +2071,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 13.125rem;
+    width: 10.125rem;
   }
 
   .description-logo img,
@@ -2076,7 +2085,7 @@ button.owl-next {
 
   .description-logo-2 {
     position: relative;
-    left: 0.9375rem;
+    left: -0.9375rem;
     width: 50%;
     margin-top: auto;
   }
@@ -2085,8 +2094,8 @@ button.owl-next {
     width: 6.25rem;
     height: auto;
     position: relative;
-    left: 7.75rem;
-    bottom: 10.5625rem;
+    left: 5.75rem;
+    bottom: 8.5625rem;
   }
 
   .footer-section {
@@ -2138,8 +2147,9 @@ button.owl-next {
   }
 }
 
+
 .discord-1 {
-  font-size: 1.5rem;
+  font-size: 1.5rem
 }
 
 .discordHref1 {
@@ -2187,7 +2197,7 @@ button.owl-next {
 }
 
 .exitBuy {
-  font-size: 1.5rem;
+  font-size: 1.5rem
 }
 
 .cardBuyText {
@@ -2196,7 +2206,7 @@ button.owl-next {
 }
 
 .cardBuyBtn {
-  background-color: #c0c0c0;
+  background-color: #C0C0C0;
   width: 100%;
   border-radius: 1.75rem;
   padding-top: 2.1%;
@@ -2238,6 +2248,7 @@ button.owl-next {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 
 .buy-now-btn {
   margin-bottom: 0.5rem;
