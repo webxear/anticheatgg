@@ -363,7 +363,7 @@ li.nav-item.navs a {
 .hero-section-img {
   position: relative;
   top: 14.4375rem;
-  right: 9.375rem;
+  right: 7.375rem;
 }
 
 .buy-btn-text {
@@ -418,8 +418,6 @@ li.nav-item.navs a {
 }
 
 .hero-section-img {
-  top: 0;
-  right: 0;
   position: relative;
   z-index: -9;
 }
@@ -830,7 +828,7 @@ tr {
   bottom: 4.375rem;
   left: 1.375rem;
   color: #000000;
-  font-size: 1.125rem;
+  font-size: 1.2rem !important;
   padding: 0rem 0.8125rem;
   display: flex;
   justify-content: center;
@@ -1223,7 +1221,6 @@ button.owl-next {
   color: #ffffff;
   text-align: center;
   position: relative;
-  top: 0.5rem;
   text-shadow: 1px 1px 2px#494949;
 }
 
@@ -1458,6 +1455,16 @@ button.owl-next {
 }
 
 @media (max-width: 48rem) {
+  .tooltip-btn {
+    position: relative;
+    display: none;
+}
+.product-info-btn {
+  margin-top: 45px;
+}
+video {
+  width: 80% !important;
+}
   img.product-info-btn-background {
     position: relative;
     top: 0.9375rem;
@@ -1696,7 +1703,7 @@ button.owl-next {
 
   .discord-btn {
     position: relative;
-    top: 1.25rem;
+    top: 1.25rem !important;
     margin: auto;
   }
 
@@ -1781,7 +1788,7 @@ button.owl-next {
   }
 
   .discord-text {
-    font-size: 0.875rem !important;
+    font-size: 1.3rem !important;
     text-shadow: 0.125rem 0.125rem 0.25rem #494949;
   }
 
@@ -1823,8 +1830,9 @@ button.owl-next {
     width: 100%;
     height: auto;
     padding: 0.9375rem;
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     position: relative;
+    line-height: 1.7rem;
   }
 
   .contact-links {
@@ -1869,7 +1877,7 @@ button.owl-next {
   }
 
   .desciption-tittle-2 h2 {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     padding: 0.4375rem;
   }
 
@@ -1954,12 +1962,12 @@ button.owl-next {
   }
 
   .section-desciption h1 {
-    font-size: 1.875rem;
+    font-size: 1.899rem;
     line-height: 2.5625rem;
   }
 
   .section-desciption p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 165%;
     margin: 1.875rem 0rem;
   }
@@ -1981,20 +1989,23 @@ button.owl-next {
 
   .buy-btn-text p,
   .buy-btn-img img {
-    font-size: 1.0625rem;
+    font-size: 1.2rem;
   }
 
   .description-text,
   .description-text-2 {
-    width: 7.875rem;
-    height: 9.375rem;
+    width: 12rem;
+    height: 15.375rem;
     padding: 0.3125rem;
+    border-radius: 5rem;
   }
 
   .description-text p,
   .description-text-2 p {
-    font-size: 0.6875rem;
-    line-height: 0.9375rem;
+    font-size: 19px;
+    line-height: 21px;
+    position: relative;
+    top: 10px;
   }
 
   .description-text-background-img,
@@ -2006,7 +2017,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 10.125rem;
+    width: 15.125rem;
   }
 
   .description-logo img,
@@ -2015,7 +2026,7 @@ button.owl-next {
   }
 
   .desciption-tittle h2 {
-    font-size: 0.9375rem;
+    font-size: 1.1rem;
   }
 
   .desciption-tittle {
@@ -2026,17 +2037,17 @@ button.owl-next {
 
   .description-logo-2 {
     position: relative;
-    left: -0.9375rem;
+    left: 0.9375rem;
     width: 50%;
     margin-top: auto;
   }
 
   .desciption-tittle-2 {
-    width: 6.25rem;
+    width: 6rem;
     height: auto;
     position: relative;
-    left: 5.75rem;
-    bottom: 8.5625rem;
+    left: 7.5rem;
+    bottom: 11rem;
   }
 }
 
@@ -2061,7 +2072,7 @@ button.owl-next {
 
   .description-text-background-img img,
   .description-text-background-img-2 img {
-    width: 10.125rem;
+    width: 14.125rem;
   }
 
   .description-logo img,
@@ -2075,17 +2086,17 @@ button.owl-next {
 
   .description-logo-2 {
     position: relative;
-    left: -0.9375rem;
+    left: 0.9375rem;
     width: 50%;
     margin-top: auto;
   }
 
   .desciption-tittle-2 {
-    width: 6.25rem;
+    width: 6rem;
     height: auto;
     position: relative;
-    left: 5.75rem;
-    bottom: 8.5625rem;
+    left: 7.5rem;
+    bottom: 11rem;
   }
 
   .footer-section {
