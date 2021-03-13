@@ -1913,7 +1913,6 @@ video {
   }
 
   .section-description p {
-    font-size: 1.0625rem;
     line-height: 170%;
   }
 
@@ -1967,7 +1966,10 @@ video {
   }
 
   .section-desciption p {
+<<<<<<< HEAD
     /* font-size: 1rem; */
+=======
+>>>>>>> 1586c6d228cdb5bd2086060028cd31e5e8454780
     line-height: 165%;
     margin: 1.875rem 0rem;
   }
